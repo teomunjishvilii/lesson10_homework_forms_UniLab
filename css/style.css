@@ -1,0 +1,158 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 52px;
+    height: 80px;
+}
+
+.icon-logo:before {
+    font-size: 80px;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.nav_li a {
+    font-size: 20px;
+    line-height: 27px;
+    color: #707070;
+    /* font-family: Archy EDT thin; */
+}
+
+.search_icon {
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-top: 5px;
+}
+
+/* Section 1 - Banner Image */
+.section1 img {
+    width: 100%;
+    margin-top: 65px;
+}
+
+/* Section 2 - Forms */
+.section2 {
+    margin-top: 49px;
+    margin-left: 150px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 600px;
+    height: 60px;
+    border: 2px solid #f2f2f2;
+    box-shadow: 3px 3px 3px #f6f6f6;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 23px;
+    line-height: 28px;
+    color: #2e2e2e;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    /* font-family: MyriadPro-Regular; */
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    border: 2px solid #f2f2f2;
+    box-shadow: 3px 3px 3px #f6f6f6;
+    resize: none;
+}
+
+button {
+    color: #ffffff;
+    font-size: 18px;
+    /* font-family: HelveticaNeueLTStd-BdCn; */
+    width: 140px;
+    height: 43px;
+    background-color: #2e2e2e;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+/* Footer */
+footer {
+    background-color: #2e2e2e;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_footer {
+    color: #fff;
+}
+
+.text_block1 {
+    color: #f2f2f2;
+}
+
+.contact {
+    font-size: 20px;
+    line-height: 27px;
+    /* font-family: Archy EDT Thin; */
+}
+
+.number, .email {
+    font-size: 13px;
+    line-height: 17px;
+    /* font-family: Archy EDT Thin; */
+}
+
+.text_block2 {
+    color: #ffffff;
+}
+
+.address {
+    font-size: 19px;
+    line-height: 26px;
+    /* font-family: Archy EDT Thin; */
+}
+
+.address_1 {
+    font-size: 13px;
+    line-height: 17px;
+    /* font-family: Archy EDT Thin; */
+}
+
+.soc_media_icons {
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}
+
+.facebook, .instagram {
+    background-color: #ffffff;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.facebook_icon, .instagram_icon {
+    font-size: 20px;
+    color: #2e2e2e;
+}
