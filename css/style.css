@@ -36,6 +36,41 @@
     margin-top: 5px;
 }
 
+/* hamburger menu icon & hidden nav menu */
+.hamburger_menu {
+    display: none;
+}
+  
+.burger_menu_icon {
+    font-size: 30px;
+    color: #2e2e2e;
+    margin-top: 30px;
+}
+
+.hidden_nav {
+    position: fixed;
+    z-index: 3;
+    width: auto;
+    height: auto;
+    top: 195px;
+    left: 0px;
+    padding: 50px;
+    background-color: #2e2e2e;
+    display: none;
+}
+
+.hidden_nav li{
+    margin-top: 30px;
+}
+
+.hidden_nav li a{
+    font-size: 20px;
+}
+
+.hamburger_menu:hover .hidden_nav{
+    display: block;
+}
+
 /* Section 1 - Banner Image */
 .section1 img {
     width: 100%;
